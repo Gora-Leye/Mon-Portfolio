@@ -17,9 +17,8 @@ header{
     align-items: center;     /* Centre verticalement les liens  */
     position: fixed;
     top: 0px;
-    left: -10px;
-    z-index:1000px;
-                 /* z-index:1000px;la barre sera au-dessus des eléments tous les autres  */
+    left: -20px;
+    z-index:1000px;     /* z-index:1000px;la barre sera au-dessus des eléments tous les autres  */
     
 }
 main{
@@ -34,9 +33,9 @@ header , nav {
 }
 nav {
     display: flex;
-    justify-content: space-between; /* Répartit les liens : gauche - milieu - droite  */
+    justify-content: center; /* Répartit les liens : au centre  */
+    gap: 100px; /* La distance qui separe les liens  */
     margin-bottom: 100px;
-    
     padding: 8px;
     margin: 10px;
 }
